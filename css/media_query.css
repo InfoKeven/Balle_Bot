@@ -28,4 +28,8 @@
     .conteudo-principal-imagem {
         width: 60vw;
     }
+
+    .conteudo-secundario {
+        margin-left: 5%;
+    }
 }
