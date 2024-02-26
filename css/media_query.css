@@ -1,4 +1,4 @@
-@media screen and (min-width: 450px) and (max-width: 1200px) {
+@media screen and (min-width: 400px) and (max-width: 760px) {
 
     ::-webkit-scrollbar {
         width: 0px;
@@ -29,7 +29,31 @@
         width: 60vw;
     }
 
+    .conteudo-principal-escrito-botao {
+        width: 80vw;
+    }
+
     .conteudo-secundario {
         margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+    .cabecalho {
+        margin-left: 5px;
+    }
+
+    .conteudo-principal {
+        padding-left: 15px;
+        padding-top: 35px;
+    }
+
+    .conteudo-secundario {
+        padding-left: 15px;
+        align-items: center;
+    }
+
+    .conteudo-secundario-paragrafo {
+        text-align: justify;
     }
 }
