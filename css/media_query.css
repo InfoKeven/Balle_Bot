@@ -1,0 +1,23 @@
+@media screen and (min-widget: 780px) and (max-widget: 1200px) {
+    body {
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+        padding: 20px;
+    }
+}
+
+@media screen and (min-widget: 710px) and (max-widget: 900px){
+    body {
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+        padding: 20px;
+    }
+}
+
+@media screen and (min-widget: 500px) and (max-widget: 710px) {
+    body {
+        font-size: 100%;
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+        padding: 20px;
+    }
+}
