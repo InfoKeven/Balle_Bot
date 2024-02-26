@@ -1,41 +1,31 @@
-@media screen and (min-widget: 780px) and (max-widget: 1200px) {
+@media screen and (min-width: 450px) and (max-width: 1200px) {
 
     ::-webkit-scrollbar {
         width: 0px;
         height: 0px;
     }
     
-    body {
-        font-size: 100%;
-        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-        padding: 20px;
+    .cabecalho {
+        margin-left: 5px;
     }
 
-    .conteudo {
-        padding: 20px;
+    .cabecalho-imagem {
+        margin: 0px 15px;
     }
-}
 
-/*@media screen and (min-widget: 710px) and (max-widget: 900px){
-    body {
-        font-size: 100%;
-        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-        padding: 20px;
+    .cabecalho-menu {
+        gap: 15px;
+        text-align: justify;
     }
 
     .conteudo-principal {
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-top: 35px;
+    }
+
+    .conteudo-principal-imagem {
+        width: 60vw;
     }
 }
-
-@media screen and (min-widget: 500px) and (max-widget: 710px) {
-    body {
-        font-size: 100%;
-        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
-        padding: 20px;
-    }
-
-    .conteudo-principal {
-        padding: 20px;
-    }
-}*/
