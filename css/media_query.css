@@ -1,15 +1,29 @@
 @media screen and (min-widget: 780px) and (max-widget: 1200px) {
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    
     body {
         font-size: 100%;
         background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
         padding: 20px;
     }
+
+    .conteudo {
+        padding: 20px;
+    }
 }
 
-@media screen and (min-widget: 710px) and (max-widget: 900px){
+/*@media screen and (min-widget: 710px) and (max-widget: 900px){
     body {
         font-size: 100%;
         background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+        padding: 20px;
+    }
+
+    .conteudo-principal {
         padding: 20px;
     }
 }
@@ -20,4 +34,8 @@
         background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
         padding: 20px;
     }
-}
+
+    .conteudo-principal {
+        padding: 20px;
+    }
+}*/
